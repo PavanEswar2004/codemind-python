@@ -4,7 +4,7 @@ s=0
 for i in range(1,n):
     if n%i==0:
         s=s+i
-if m==s:
+if s==m:
     print("Amicable")
 else:
     print("Not Amicable")
